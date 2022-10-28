@@ -18,12 +18,12 @@
   
   
   <title>SpringBoot2自动配置入门 | Hexo</title>
-  <meta name="description" content="SpringBoot特点依赖管理 父项目做依赖管理 1234567891011121314151617依赖管理 &lt;parent&gt;&lt;groupId&gt;org.springframework.boot&lt;&#x2F;groupId&gt;&lt;artifactId&gt;spring-boot-starter-parent&lt;&#x2F;artifactId&gt;&lt;version&amp;">
+  <meta name="description" content="SpringBoot特点依赖管理 父项目做依赖管理 1234567891011121314151617依赖管理 &lt;parent&gt;&lt;groupId&gt;org.springframework.boot&lt;&#x2F;groupId&gt;&lt;artifactId&gt;spring-boot-starter-parent&lt;&#x2F;artifactId&gt;&lt;versio">
 <meta property="og:type" content="article">
 <meta property="og:title" content="SpringBoot2自动配置入门">
 <meta property="og:url" content="http://example.com/2022/10/28/SpringBoot2%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE%E5%85%A5%E9%97%A8/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="SpringBoot特点依赖管理 父项目做依赖管理 1234567891011121314151617依赖管理 &lt;parent&gt;&lt;groupId&gt;org.springframework.boot&lt;&#x2F;groupId&gt;&lt;artifactId&gt;spring-boot-starter-parent&lt;&#x2F;artifactId&gt;&lt;version&amp;">
+<meta property="og:description" content="SpringBoot特点依赖管理 父项目做依赖管理 1234567891011121314151617依赖管理 &lt;parent&gt;&lt;groupId&gt;org.springframework.boot&lt;&#x2F;groupId&gt;&lt;artifactId&gt;spring-boot-starter-parent&lt;&#x2F;artifactId&gt;&lt;versio">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://cdn.nlark.com/yuque/0/2022/png/26751161/1666841212807-75f7d5a5-3593-4c27-9310-a8dac1a6e962.png#clientId=u09a8ab18-3581-4&crop=0&crop=0&crop=1&crop=1&from=drop&id=ua5a1a37a&margin=%5Bobject%20Object%5D&name=image.png&originHeight=544&originWidth=599&originalType=binary&ratio=1&rotation=0&showTitle=false&size=146760&status=done&style=none&taskId=u745bc29a-3741-47b5-b614-484712aa085&title=">
 <meta property="og:image" content="https://cdn.nlark.com/yuque/0/2021/png/1304385/1626268527765-d5dff7d8-1e47-4126-9e2c-9a77b57edd8a.png#crop=0&crop=0&crop=1&crop=1&from=url&id=OrRYX&margin=%5Bobject%20Object%5D&originHeight=713&originWidth=1076&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=">
@@ -41,7 +41,7 @@
 <meta property="og:image" content="https://cdn.nlark.com/yuque/0/2022/png/26751161/1666919619649-a9b5d9ad-171d-4580-be55-8e8f983dc7e0.png#clientId=uf83bcc22-58a9-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=41&id=ud917beb6&margin=%5Bobject%20Object%5D&name=image.png&originHeight=51&originWidth=817&originalType=binary&ratio=1&rotation=0&showTitle=false&size=11483&status=done&style=none&taskId=u8b3d7f34-d0e1-4dd1-81f8-31a7828a7c0&title=&width=653.6">
 <meta property="og:image" content="https://cdn.nlark.com/yuque/0/2022/png/26751161/1666919663152-81f7e254-3d99-458b-a729-b13a3fc35b9a.png#clientId=uf83bcc22-58a9-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=504&id=u61270335&margin=%5Bobject%20Object%5D&name=image.png&originHeight=630&originWidth=1179&originalType=binary&ratio=1&rotation=0&showTitle=false&size=106589&status=done&style=none&taskId=u41ce6d89-16ed-43fe-b399-09c3b7fec6e&title=&width=943.2">
 <meta property="article:published_time" content="2022-10-28T07:37:42.000Z">
-<meta property="article:modified_time" content="2022-10-28T10:39:51.018Z">
+<meta property="article:modified_time" content="2022-10-28T11:56:47.497Z">
 <meta property="article:author" content="Epiphany">
 <meta property="article:tag" content="Spring Boot">
 <meta property="article:tag" content="java">
@@ -74,12 +74,12 @@
       
       
       <div class="profile-block text-center">
-        <a id="avatar" href="https://github.com/cofess" target="_blank">
+        <a id="avatar" href="https://github.com/Epiphany200424" target="_blank">
           <img class="img-circle img-rotate" src="/images/20221028171523.jpg" width="200" height="200">
         </a>
         <h2 id="name" class="hidden-xs hidden-sm">Epiphany</h2>
         <h3 id="title" class="hidden-xs hidden-sm hidden-md">Web Developer &amp; Designer</h3>
-        <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> Shenzhen, China</small>
+        <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> 上海, 中国</small>
       </div>
       
       <div class="search" id="search-form-wrap">
@@ -192,13 +192,7 @@
 	
     <ul class="social-links">
     	
-        <li><a href="https://github.com/cofess" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
-        
-        <li><a href="http://weibo.com/cofess" target="_blank" title="Weibo" data-toggle=tooltip data-placement=top><i class="icon icon-weibo"></i></a></li>
-        
-        <li><a href="https://twitter.com/iwebued" target="_blank" title="Twitter" data-toggle=tooltip data-placement=top><i class="icon icon-twitter"></i></a></li>
-        
-        <li><a href="https://www.behance.net/cofess" target="_blank" title="Behance" data-toggle=tooltip data-placement=top><i class="icon icon-behance"></i></a></li>
+        <li><a href="https://github.com/Epiphany200424" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
         
         <li><a href="/atom.xml" target="_blank" title="Rss" data-toggle=tooltip data-placement=top><i class="icon icon-rss"></i></a></li>
         
@@ -354,6 +348,18 @@
 
 
         
+	<span class="article-read hidden-xs">
+	    <i class="icon icon-eye-fill" aria-hidden="true"></i>
+	    <span id="busuanzi_container_page_pv">
+			<span id="busuanzi_value_page_pv">0</span>
+		</span>
+	</span>
+
+
+	<span class="article-read hidden-xs">
+    	<i class="icon icon-eye-fill" aria-hidden="true"></i>
+    	<span id="/2022/10/28/SpringBoot2%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE%E5%85%A5%E9%97%A8/" class="leancloud_visitors"  data-flag-title="SpringBoot2自动配置入门">0</span>
+    </span>
 
         <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2022/10/28/SpringBoot2%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE%E5%85%A5%E9%97%A8/#comments" class="article-comment-link">评论</a></span>
         
@@ -368,7 +374,9 @@
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <h1 id="SpringBoot特点"><a href="#SpringBoot特点" class="headerlink" title="SpringBoot特点"></a>SpringBoot特点</h1><h3 id="依赖管理"><a href="#依赖管理" class="headerlink" title="依赖管理"></a>依赖管理</h3><ul>
+        <meta name="referrer" content="no-referrer" />
+
+<h1 id="SpringBoot特点"><a href="#SpringBoot特点" class="headerlink" title="SpringBoot特点"></a>SpringBoot特点</h1><h3 id="依赖管理"><a href="#依赖管理" class="headerlink" title="依赖管理"></a>依赖管理</h3><ul>
 <li><p>父项目做依赖管理</p>
 <figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">依赖管理 </span><br><span class="line"><span class="tag">&lt;<span class="name">parent</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-boot-starter-parent<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">version</span>&gt;</span>2.7.3<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">parent</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">他的父项目</span><br><span class="line"><span class="tag">&lt;<span class="name">parent</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">groupId</span>&gt;</span>org.springframework.boot<span class="tag">&lt;/<span class="name">groupId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">artifactId</span>&gt;</span>spring-boot-dependencies<span class="tag">&lt;/<span class="name">artifactId</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">version</span>&gt;</span>2.7.3<span class="tag">&lt;/<span class="name">version</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">parent</span>&gt;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">几乎声明了所有开发中常用的依赖的版本号,自动版本仲裁机制</span><br></pre></td></tr></table></figure>
 </li>
@@ -583,13 +591,13 @@
   <div class="panel-body">
     <figure class="media">
       <div class="media-left">
-        <a href="https://github.com/cofess" target="_blank" class="img-burn thumb-sm visible-lg">
+        <a href="https://github.com/Epiphany200424" target="_blank" class="img-burn thumb-sm visible-lg">
           <img src="/images/20221028171523.jpg" class="img-rounded w-full" alt="">
         </a>
       </div>
       <div class="media-body">
-        <h3 class="media-heading"><a href="https://github.com/cofess" target="_blank"><span class="text-dark">Epiphany</span><small class="ml-1x">Web Developer &amp; Designer</small></a></h3>
-        <div>个人简介。</div>
+        <h3 class="media-heading"><a href="https://github.com/Epiphany200424" target="_blank"><span class="text-dark">Epiphany</span><small class="ml-1x">Web Developer &amp; Designer</small></a></h3>
+        <div>喜欢码代码,也喜欢世界</div>
       </div>
     </figure>
   </div>
@@ -698,13 +706,7 @@
 	
     <ul class="social-links">
     	
-        <li><a href="https://github.com/cofess" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
-        
-        <li><a href="http://weibo.com/cofess" target="_blank" title="Weibo" data-toggle=tooltip data-placement=top><i class="icon icon-weibo"></i></a></li>
-        
-        <li><a href="https://twitter.com/iwebued" target="_blank" title="Twitter" data-toggle=tooltip data-placement=top><i class="icon icon-twitter"></i></a></li>
-        
-        <li><a href="https://www.behance.net/cofess" target="_blank" title="Behance" data-toggle=tooltip data-placement=top><i class="icon icon-behance"></i></a></li>
+        <li><a href="https://github.com/Epiphany200424" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
         
         <li><a href="/atom.xml" target="_blank" title="Rss" data-toggle=tooltip data-placement=top><i class="icon icon-rss"></i></a></li>
         
@@ -753,7 +755,99 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 
 
    
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
+
+
+<!-- custom analytics part create by xiamo -->
+<script defer src="https://cdn1.lncld.net/static/js/av-min-1.2.1.js"></script>
+<script defer>
+AV.init({
+  appId: '',
+  appKey: ''
+});
+
+function showTime(Counter) {
+	var query = new AV.Query(Counter);
+		var visitors= $('.leancloud_visitors');
+		query.greaterThanOrEqualTo("time", 0);		
+		query.find({
+			success: function(results) {
+				if (results.length == 0) {				
+					return;
+				}
+				var data = results;
+				visitors.each(function(){
+					var url = $(this).attr('id').trim();					
+					for (var i = 0; i < data.length; i++) {
+						var object = data[i];
+						var content = object.get('time');
+						var _url = object.get('url')
+						if(url == _url){
+							$(this).text(content);
+						}
+					}
+				})
+				
+			},
+			error: function(object, error) {
+				console.log("Error: " + error.code + " " + error.message);
+			}
+		});
+}
+
+function addCount(Counter) {
+	var Counter = AV.Object.extend("Counter");
+	url = $(".leancloud_visitors").attr('id').trim();
+	title = $(".leancloud_visitors").attr('data-flag-title').trim();
+	var query = new AV.Query(Counter);
+	query.equalTo("url", url);
+	query.find({
+		success: function(results) {
+			if (results.length > 0) {
+				var counter = results[0];
+				counter.fetchWhenSave(true);
+				counter.increment("time");
+				counter.save(null, {
+					success: function(counter) {
+						var content = counter.get('time');
+						$(document.getElementById(url)).text(content);
+					},
+					error: function(counter, error) {
+						console.log('Failed to save Visitor num, with error message: ' + error.message);
+					}
+				});
+			} else {
+				var newcounter = new Counter();
+				newcounter.set("title", title);
+				newcounter.set("url", url);
+				newcounter.set("time", 1);
+				newcounter.save(null, {
+					success: function(newcounter) {
+					    console.log("newcounter.get('time')="+newcounter.get('time'));
+						var content = newcounter.get('time');
+						$(document.getElementById(url)).text(content);
+					},
+					error: function(newcounter, error) {
+						console.log('Failed to create');
+					}
+				});
+			}
+		},
+		error: function(error) {
+			console.log('Error:' + error.code + " " + error.message);
+		}
+	});
+}
+$(function() {
+	var Counter = AV.Object.extend("Counter");
+	if ($('.leancloud_visitors').length == 1) {
+		addCount(Counter);
+	} else {
+		showTime(Counter);
+	}
+}); 
+</script>
 
 
 
