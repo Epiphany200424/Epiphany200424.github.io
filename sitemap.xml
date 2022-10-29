@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2022/10/29/%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD/</loc>
+    <loc>https://epiphany200424.github.io/about/index.html</loc>
     
     <lastmod>2022-10-29</lastmod>
     
@@ -11,7 +11,16 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/10/28/Hello%20World/</loc>
+    <loc>https://epiphany200424.github.io/2022/10/29/%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD/</loc>
+    
+    <lastmod>2022-10-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://epiphany200424.github.io/2022/10/28/Hello%20World/</loc>
     
     <lastmod>2022-10-28</lastmod>
     
@@ -20,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/links/index.html</loc>
+    <loc>https://epiphany200424.github.io/links/index.html</loc>
     
     <lastmod>2022-10-28</lastmod>
     
@@ -29,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2022/10/28/SpringBoot2%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE%E5%85%A5%E9%97%A8/</loc>
+    <loc>https://epiphany200424.github.io/2022/10/28/SpringBoot2%E8%87%AA%E5%8A%A8%E9%85%8D%E7%BD%AE%E5%85%A5%E9%97%A8/</loc>
     
     <lastmod>2022-10-28</lastmod>
     
@@ -38,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/about/index.html</loc>
+    <loc>https://epiphany200424.github.io/tags/index.html</loc>
     
     <lastmod>2022-10-28</lastmod>
     
@@ -47,7 +56,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>https://epiphany200424.github.io/repository/index.html</loc>
     
     <lastmod>2022-10-28</lastmod>
     
@@ -56,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/repository/index.html</loc>
+    <loc>https://epiphany200424.github.io/categories/index.html</loc>
     
     <lastmod>2022-10-28</lastmod>
     
@@ -65,16 +74,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
-    
-    <lastmod>2022-10-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/10/28/Spring%20Boot%20%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</loc>
+    <loc>https://epiphany200424.github.io/2022/10/28/Spring%20Boot%20%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</loc>
     
     <lastmod>2022-10-28</lastmod>
     
@@ -84,7 +84,7 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
+    <loc>https://epiphany200424.github.io/</loc>
     <lastmod>2022-10-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -92,28 +92,28 @@
 
   
   <url>
-    <loc>http://example.com/tags/Spring-Boot/</loc>
+    <loc>https://epiphany200424.github.io/tags/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2022-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/</loc>
+    <loc>https://epiphany200424.github.io/tags/Spring-Boot/</loc>
     <lastmod>2022-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E6%8A%80%E6%9C%AF/</loc>
+    <loc>https://epiphany200424.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/</loc>
     <lastmod>2022-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/java/</loc>
+    <loc>https://epiphany200424.github.io/tags/java/</loc>
     <lastmod>2022-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -122,21 +122,21 @@
 
   
   <url>
-    <loc>http://example.com/categories/Spring-Boot/</loc>
+    <loc>https://epiphany200424.github.io/categories/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2022-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <loc>https://epiphany200424.github.io/categories/Spring-Boot/</loc>
     <lastmod>2022-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/java/</loc>
+    <loc>https://epiphany200424.github.io/categories/java/</loc>
     <lastmod>2022-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
