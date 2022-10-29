@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-10-28T10:35:34.662Z</updated>
+  <updated>2022-10-29T08:10:45.055Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Spring Boot 核心功能</title>
+    <link href="http://example.com/2022/10/29/%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD/"/>
+    <id>http://example.com/2022/10/29/%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD/</id>
+    <published>2022-10-29T08:10:00.000Z</published>
+    <updated>2022-10-29T08:10:45.055Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Spring-Boot-核心功能"><a href="#Spring-Boot-核心功能" class="headerlink" title="Spring Boot 核心功能"></a>Spring Boot 核心功能</h1><p><img src="https://cdn.nlark.com/yuque/0/2022/png/26751161/1666927351738-2ae31d93-b834-429f-9abb-f5270dce308d.png#clientId=u5b611d7b-01db-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=354&id=ub1bb5e2c&margin=%5Bobject%20Object%5D&name=image.png&originHeight=443&originWidth=547&originalType=binary&ratio=1&rotation=0&showTitle=false&size=25017&status=done&style=none&taskId=u20238096-10ea-4789-a3ae-6cf70edaf4d&title=&width=437.6" alt="image.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Spring-Boot-核心功能&quot;&gt;&lt;a href=&quot;#Spring-Boot-核心功能&quot; class=&quot;headerlink&quot; title=&quot;Spring Boot 核心功能&quot;&gt;&lt;/a&gt;Spring Boot 核心功能&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;http</summary>
+      
+    
+    
+    
+    <category term="java" scheme="http://example.com/categories/java/"/>
+    
+    
+    <category term="Spring Boot" scheme="http://example.com/tags/Spring-Boot/"/>
+    
+    <category term="java" scheme="http://example.com/tags/java/"/>
+    
+  </entry>
   
   <entry>
     <title>Spring Boot 配置文件</title>
