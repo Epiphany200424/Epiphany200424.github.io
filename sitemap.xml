@@ -92,14 +92,7 @@
 
   
   <url>
-    <loc>https://epiphany200424.github.io/tags/Spring-Boot/</loc>
-    <lastmod>2022-11-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://epiphany200424.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/</loc>
+    <loc>https://epiphany200424.github.io/tags/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2022-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -113,7 +106,14 @@
   </url>
   
   <url>
-    <loc>https://epiphany200424.github.io/tags/%E6%8A%80%E6%9C%AF/</loc>
+    <loc>https://epiphany200424.github.io/tags/Spring-Boot/</loc>
+    <lastmod>2022-11-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://epiphany200424.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/</loc>
     <lastmod>2022-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -122,7 +122,7 @@
 
   
   <url>
-    <loc>https://epiphany200424.github.io/categories/Spring-Boot/</loc>
+    <loc>https://epiphany200424.github.io/categories/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2022-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -136,7 +136,7 @@
   </url>
   
   <url>
-    <loc>https://epiphany200424.github.io/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <loc>https://epiphany200424.github.io/categories/Spring-Boot/</loc>
     <lastmod>2022-11-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

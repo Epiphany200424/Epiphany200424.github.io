@@ -8,10 +8,10 @@ https://epiphany200424.github.io/tags/index.html
 https://epiphany200424.github.io/repository/index.html
 https://epiphany200424.github.io/categories/index.html
 https://epiphany200424.github.io/
+https://epiphany200424.github.io/tags/%E6%8A%80%E6%9C%AF/
+https://epiphany200424.github.io/tags/java/
 https://epiphany200424.github.io/tags/Spring-Boot/
 https://epiphany200424.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/
-https://epiphany200424.github.io/tags/java/
-https://epiphany200424.github.io/tags/%E6%8A%80%E6%9C%AF/
-https://epiphany200424.github.io/categories/Spring-Boot/
-https://epiphany200424.github.io/categories/java/
 https://epiphany200424.github.io/categories/%E6%8A%80%E6%9C%AF/
+https://epiphany200424.github.io/categories/java/
+https://epiphany200424.github.io/categories/Spring-Boot/
